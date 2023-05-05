@@ -51,7 +51,9 @@ header {
 
 
 main {
-    background-color: aquamarine;
+    background-image: url(/main\ picture.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     height: calc(100% - var(--header-height) - var(--footer-height));
 }
 
