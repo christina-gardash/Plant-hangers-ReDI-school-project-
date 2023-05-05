@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@100;200;400;500;600&family=Sono:wght@300;400;500;600&display=swap');
+
+:root {
+    --header-height: 100px;
+    --footer-height: 100px;
+    --primary-bckg-color: #F2F2EF;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+   }
+
+   body {
+    font-family: 'Sono', sans-serif;
+    background-color: var(--primary-bckg-color);
+    color: #444242; 
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 80px;
+    background-image: url(/fermLIVING-logo-black.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 24px;
+}
+
+.btn_bkgr {
+    height: 60px;
+    width: 60px;
+    background-color: #7C9B6D;
+    border-radius: 50%;
+    margin: 24px;
+}
+
+
+main {
+    background-color: aquamarine;
+    height: calc(100% - var(--header-height) - var(--footer-height));
+}
+
+footer {
+    background-color: rgb(199, 132, 132);
+}
