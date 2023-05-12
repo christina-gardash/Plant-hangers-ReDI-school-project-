@@ -57,6 +57,14 @@ main {
     height: calc(100% - var(--header-height) - var(--footer-height));
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+}
+
+
+
 footer {
     background-color: rgb(199, 132, 132);
 }
