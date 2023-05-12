@@ -80,8 +80,8 @@ footer {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .details{
@@ -95,6 +95,6 @@ footer {
 .prod_name {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
 }
