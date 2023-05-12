@@ -33,12 +33,12 @@ header {
 }
 
 .logo {
-    height: 50px;
-    width: 80px;
-    background-image: url(/fermLIVING-logo-black.png);
+    height: 40px;
+    width: 90px;
+    background-image: url(/images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 24px;
+    margin: 34px;
 }
 
 .btn_bkgr {
@@ -47,14 +47,57 @@ header {
     background-color: #7C9B6D;
     border-radius: 50%;
     margin: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-main {
-    background-image: url(/main\ picture.jpg);
+ion-icon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    /* background-size: contain; */
+}
+
+
+.main_part {
+    background-image: url(/images/main\ picture.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: calc(100% - var(--header-height) - var(--footer-height));
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main_section_container {
+    position: relative;
+}
+
+.decorate_text {
+    color: #444242;
+    margin-top: 5px;
+}
+
+.with_us {
+    color: #ece9e9;
+    margin-top: 5px;
+}
+
+
+.main_text_container {
+    height: 100px;
+    width: 330px;
+    background-color: #9cac8bee;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: -470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -73,6 +116,9 @@ gap: 15px;
 
 footer {
     background-color: rgb(199, 132, 132);
+}
+
+
 
 }
 
