@@ -10,14 +10,30 @@
 <body>
     <header>
         <div class="logo"></div>
-        <div class="btn_bkgr">
+        <!-- <div class="btn_bkgr">
             <figure class="btn_container"><ion-icon name="mail"></ion-icon></figure>
+        </div> -->
+
+        <nav class="nav-container">
+            <ul class="menu" id="nav_menu">
+              <li class="nav-item"><a href="#main" class="nav-link">Main</a></li>
+              <li class="nav-item"><a href="#top-sellers" class="nav-link">Top Sellers</a></li>
+              <li class="nav-item"><a href="#product-details" class="nav-link">Product Details</a></li>
+              <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" id="ham_menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
+
     </header>
 
 
     <main class="main_part">
-        <h1>Click&Buy</h1>
+        <h1>CLICK&BUY</h1>
 
         <section class="main_section_container">
             <div class="main_text_container">
@@ -29,10 +45,20 @@
     </main>
 
 
-    <footer>bla bla bla</footer>
+    <footer>
+        <div class="phone_div">
+            <ion-icon name="call"></ion-icon>
+        </div>
+
+        <div class="social_media_div"></div>
+
+        <div class="copyright_div"></div>
+    </footer>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+<script src="/main.js" defer></script>
 </body>
 </html>
