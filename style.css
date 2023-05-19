@@ -111,6 +111,20 @@ h1 {
     align-items: center;
 }
 
+
+
+
+.cards-container {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+
+}
+
+
+
+
+
 footer {
     background-color: #F2F2EF;
     height: 100px;
@@ -222,3 +236,56 @@ footer {
           width: 350px;
         }
       }
+
+
+.product_page_container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    width: 100%;
+}
+.prod_image_wrapper{
+
+    height: 400px;
+    width: 100%;
+}
+
+.prod_details_wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+}
+
+.details{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.prod_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  width: 100%;
+
+}
+
+.buyNowBtn{
+
+    font-size: 16px;
+    background-color: #7C9B6D;
+    color: #FFFFFF;
+
+}
+
+
+   
