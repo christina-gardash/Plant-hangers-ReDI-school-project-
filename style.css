@@ -82,6 +82,7 @@ footer {
     flex-direction: column;
     justify-content: left;
     align-items: left;
+    gap: 20px;
 }
 
 .details{
@@ -97,4 +98,12 @@ footer {
     flex-direction: column;
     justify-content: left;
     align-items: left;
+}
+
+.buyNowBtn{
+
+    font-size: 16px;
+    background-color: #7C9B6D;
+    color: #FFFFFF;
+
 }
