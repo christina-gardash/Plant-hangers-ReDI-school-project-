@@ -112,7 +112,32 @@ h1 {
 }
 
 
+.slider {
+    display: flex;
+    overflow-x: scroll;
+}
 
+.slider img {
+    width: 100%;
+}
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ 
+  }
+  .page-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #68825c;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--accent-color);
+    }
+  }
 
 .cards-container {
 display: flex;
@@ -120,8 +145,6 @@ flex-wrap: wrap;
 gap: 15px;
 
 }
-
-
 
 
 
